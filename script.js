@@ -12,6 +12,7 @@ function calculateTip() {
   //   window.alert('Oops! You can only enter a numerical value!');
   //   return;
   // }
+  
   if(serviceQuality == 0) {
     window.alert('Please select tip amount!');
     return;
