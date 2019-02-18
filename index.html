@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Tip Calculator</title>
   </head>
   <body>
@@ -15,7 +16,7 @@
         <form>
           <label>
             How much was your bill?<br>
-            $ <input type="text" id="billAmount">
+            $ <input type="text" id="billAmount" placeholder="0.00">
           </label>
           <label>
             How was your service?<br>
@@ -30,7 +31,7 @@
           </label>
           <label>
             How many people are sharing the bill?<br>
-            # <input type="text" id="totalPeople"> PEOPLE
+            <i class="fas fa-male"></i> <input type="text" id="totalPeople" placeholder="1"> PEOPLE
           </label>
           <button type="button" id="calculate">Calculate</button>
         </form>
